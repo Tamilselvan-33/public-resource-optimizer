@@ -1,0 +1,4 @@
+# Redrob Candidate Ranking System
+#
+# Rank top-100 candidates for the Senior AI Engineer JD.
+# Stdlib only — no network, no GPU, no hosted LLM calls during ranking.

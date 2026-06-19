@@ -1,0 +1,98 @@
+{
+  "role": "Senior AI Engineer — Founding Team",
+  "company": "Redrob AI",
+  "experience_band": {
+    "preferred_min": 5,
+    "preferred_max": 9,
+    "flexible": true,
+    "ideal": "6-8 years total, 4-5 in applied ML/AI at product companies"
+  },
+  "required_skills": [
+    "Production embeddings-based retrieval (sentence-transformers, BGE, E5, OpenAI embeddings, etc.)",
+    "Vector databases or hybrid search (Pinecone, Weaviate, Qdrant, Milvus, OpenSearch, Elasticsearch, FAISS)",
+    "Strong Python with production code quality",
+    "Ranking evaluation frameworks (NDCG, MRR, MAP, offline-to-online correlation, A/B testing)"
+  ],
+  "preferred_skills": [
+    "LLM fine-tuning (LoRA, QLoRA, PEFT)",
+    "Learning-to-rank (XGBoost or neural)",
+    "HR-tech / recruiting / marketplace products",
+    "Distributed systems / large-scale inference",
+    "Open-source AI/ML contributions"
+  ],
+  "explicit_disqualifiers": [
+    {
+      "id": "pure_research_only",
+      "rule": "Career spent in academic/research-only roles without production deployment"
+    },
+    {
+      "id": "langchain_only",
+      "rule": "AI experience primarily recent (<12 months) LangChain + OpenAI calls without pre-LLM production ML"
+    },
+    {
+      "id": "no_recent_code",
+      "rule": "Senior engineer who has not written production code in 18+ months (architecture/tech-lead only)"
+    },
+    {
+      "id": "consulting_only",
+      "rule": "Entire career at consulting firms (TCS, Infosys, Wipro, Accenture, Cognizant, Capgemini, etc.) with no product-company experience"
+    },
+    {
+      "id": "cv_speech_robotics_only",
+      "rule": "Primary expertise in computer vision, speech, or robotics without significant NLP/IR exposure"
+    },
+    {
+      "id": "closed_source_no_validation",
+      "rule": "5+ years only on closed proprietary systems with no external validation (papers, talks, OSS)"
+    },
+    {
+      "id": "title_chasing",
+      "rule": "Frequent company switches every <1.5 years optimizing for title progression"
+    },
+    {
+      "id": "framework_enthusiast_only",
+      "rule": "Profile dominated by LangChain tutorials/demos rather than systems thinking"
+    }
+  ],
+  "location": {
+    "preferred": ["Pune", "Noida"],
+    "acceptable_india": ["Hyderabad", "Mumbai", "Delhi NCR", "Bangalore", "Chennai", "Gurgaon", "Gurugram"],
+    "country_requirement": "India preferred; outside India case-by-case, no visa sponsorship",
+    "work_mode": "Hybrid flexible; quarterly offsite travel expected"
+  },
+  "notice_period": {
+    "preferred_max_days": 30,
+    "buyout_available_days": 30,
+    "longer_notice_higher_bar": true
+  },
+  "behavioral_signals": {
+    "down_weight_if": [
+      "Stale last_active_date (e.g. 6+ months inactive)",
+      "Very low recruiter_response_rate (e.g. ~5%)",
+      "Poor interview_completion_rate"
+    ],
+    "up_weight_if": [
+      "Active on platform / open to work",
+      "Strong recruiter_response_rate",
+      "Recent last_active_date",
+      "Reasonable notice_period_days (<=30 preferred)"
+    ]
+  },
+  "ideal_candidate_profile": {
+    "years_of_experience": "6-8",
+    "applied_ml_years_at_product_companies": "4-5",
+    "must_have_shipped": "End-to-end ranking, search, or recommendation system at meaningful scale",
+    "must_demonstrate": "Strong opinions on hybrid vs dense retrieval, offline vs online eval, fine-tune vs prompt — grounded in systems they built",
+    "location": "Noida or Pune, or willing to relocate",
+    "availability": "Active on Redrob / clear job-market signal"
+  },
+  "hackathon_trap_guidance": {
+    "do_not": "Rank by AI keyword count or embedding similarity alone",
+    "do": "Reason about title vs skills credibility gap, career-history corroboration, assessment scores vs claimed proficiency, behavioral availability, honeypot timeline impossibilities",
+    "plain_language_tier": "Candidates may describe recommendation/search/ranking work without buzzwords like RAG or Pinecone — career history matters more than skills list"
+  },
+  "scoring_context": {
+    "expected_strong_matches_in_100k": "Very few (~10 great matches per JD text)",
+    "honeypot_disqualification_threshold": ">10% honeypots in top 100 at Stage 3"
+  }
+}
